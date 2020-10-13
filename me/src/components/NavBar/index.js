@@ -29,9 +29,7 @@ function NavBar() {
       </a>
       <a
         className="NavBar-link"
-        href="/contact"
-        target="_blank"
-        rel="noopener noreferrer"
+        // href="/contact"
       >
         Contact
       </a>
