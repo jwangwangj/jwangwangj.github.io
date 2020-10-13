@@ -1,0 +1,25 @@
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  align-items: center;
+  padding: 30px calc(30px + 10vw);
+  color: #E5E9EC;
+  font-size: 15px;
+}
+
+.NavBar-link {
+  margin: 20px 40px
+}
+
+.NavBar-link:hover {
+  text-decoration: underline;
+}
+
+.NavBar-link:visited {
+  color: #EAFDF8
+}
+
+.NavBar-logo:visited {
+  color: #EAFDF8
+}
