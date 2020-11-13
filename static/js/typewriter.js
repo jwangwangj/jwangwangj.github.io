@@ -16,7 +16,7 @@ typing = () => {
             document.getElementById("typewriter").innerHTML += txt.charAt(i)
             i++
             setTimeout(typing, speed)
-        } else if (i < txt.length + 20) {
+        } else if (i < txt.length + 50) {
             i++
             setTimeout(typing, speed)
         }else {
