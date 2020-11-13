@@ -1,0 +1,63 @@
+.blinking {
+  -webkit-animation: Typewriter 1s step-end infinite;
+  -moz-animation: Typewriter 1s step-end infinite;
+  -ms-animation: Typewriter 1s step-end infinite;
+  -o-animation: Typewriter 1s step-end infinite;
+  animation: Typewriter 1s step-end infinite;
+}
+
+@keyframes Typewriter {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes Typewriter {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes Typewriter {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-ms-keyframes Typewriter {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes Typewriter {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,25 @@
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  align-items: center;
+  color: #e5e9ec;
+  font-size: 15px;
+}
+
+.NavBar-link {
+  margin: 20px 40px;
+  color: #eafdf8;
+}
+
+.NavBar-link:visited {
+  color: #eafdf8;
+}
+
+.NavBar-logo:visited {
+  color: #eafdf8;
+}
+
+.NavBar-logo:hover {
+    font-weight: 100;
+  }
