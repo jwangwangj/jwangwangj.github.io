@@ -8,6 +8,7 @@ body {
   color: #e5e9ec;
   max-width: 1200px;
   min-height: 100vh;
+  line-height: 1.8em;
 }
 
 a {
@@ -33,8 +34,33 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
 footer {
+  margin: 20px;
+  padding: 20px;
   word-spacing: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto
+}
+
+.img-link {
+  width: inherit;
+  height: inherit;
+}
+
+.img-link:hover .img-link-overlay{
+  opacity: 0.3;
+}
+
+.canvas {
+  display: grid
 }
 
 .content {
@@ -42,8 +68,9 @@ footer {
   min-height: calc(100vh - 150px);
 }
 
-.canvas {
-  display: grid
+.block {
+  display: inline-block;
+  padding: 0 20px 20px 0;
 }
 
 .Landing-header {
