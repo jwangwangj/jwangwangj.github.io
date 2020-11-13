@@ -3,9 +3,10 @@ body {
   background-color: #7c616c;
   font-family: "Nunito", sans-serif;
   font-weight: 100;
-  margin: 30px calc(30px + 10vw);
+  margin: 80px auto;
   font-size: 15px;
   color: #e5e9ec;
+  max-width: 1200px;
 }
 
 a {
@@ -35,8 +36,12 @@ h1 {
   text-align: initial;
 }
 
+.canvas {
+  display: grid
+}
+
 .Landing-header {
-  min-height: calc(100vh - 200px);
+  min-height: calc(100vh - 300px);
   display: flex;
   flex-direction: column;
   align-items: center;
