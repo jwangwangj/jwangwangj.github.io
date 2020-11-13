@@ -32,6 +32,10 @@ h1 {
   font-weight: bold;
 }
 
+footer {
+  word-spacing: 20px;
+}
+
 .content {
   text-align: initial;
 }
