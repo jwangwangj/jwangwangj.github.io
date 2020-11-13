@@ -40,3 +40,20 @@
   font-weight: 600;
   font-size: 18px;
 }
+
+.project-more {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  background-color: #4e3d44;
+  margin: 20px 0;
+}
+
+.project-more-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
