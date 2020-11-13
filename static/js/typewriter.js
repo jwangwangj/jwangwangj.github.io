@@ -12,7 +12,6 @@ typing = () => {
     const txt = data[dataIndex]
     if (isTyping) {
         if (i < txt.length) {
-            console.log(i,"typing")
             document.getElementById("typewriter").innerHTML += txt.charAt(i)
             i++
             setTimeout(typing, speed)
@@ -33,7 +32,6 @@ deleting = () => {
     const txt = document.getElementById("typewriter").innerHTML
     if (!isTyping) {
         if (i >= -10) {
-            console.log(i, "deleting")
             document.getElementById("typewriter").innerHTML = txt.slice(0, -1)
             i--
             setTimeout(typing, speed)
