@@ -17,8 +17,9 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: inherit;
+  background-color: #6b525d;
 }
 
 a:visited {
@@ -30,7 +31,7 @@ code {
 }
 
 h1 {
-  font-size: 1.3em;
+  font-size: 1.6em;
   font-weight: bold;
 }
 
@@ -92,6 +93,18 @@ img {
 .Landing-me {
   width: 400px;
   height: 400px;
+}
+
+.landing-cta {
+  padding: 10px;
+  border: #e5e9ec 1px solid;
+  border-radius: 0.5em;
+  font-size: 16px;
+}
+
+.landing-cta:hover {
+  border: #e5e9ec 2px solid;
+  text-decoration: none;
 }
 
 .Landing-logo {
