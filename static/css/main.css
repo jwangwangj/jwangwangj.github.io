@@ -43,11 +43,19 @@ h1 {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #e5e9ec;
+  width: 75%;
 }
 
-/* .Landing-content {
-      
-  } */
+.Landing-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Landing-me {
+  width: 400px;
+  height: 400px;
+}
 
 .Landing-logo {
   height: 40vmin;
