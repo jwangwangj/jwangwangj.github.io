@@ -67,7 +67,7 @@ img {
 
 .content {
   text-align: initial;
-  min-height: calc(100vh - 150px);
+  min-height: 70vh;
   width: inherit;
   padding: 30px;
 }
@@ -103,6 +103,8 @@ img {
   border: #e5e9ec 1px solid;
   border-radius: 0.5em;
   font-size: 16px;
+  max-width: 30vw;
+  text-align: center;
 }
 
 .landing-cta:hover {
