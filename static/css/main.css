@@ -9,6 +9,7 @@ body {
   max-width: 1200px;
   min-height: 100vh;
   line-height: 1.8em;
+  padding: 30px
 }
 
 a {
@@ -67,7 +68,6 @@ img {
 
 .content {
   text-align: initial;
-  min-height: 70vh;
   width: inherit;
   padding: 30px;
 }
@@ -85,6 +85,8 @@ img {
   font-size: calc(10px + 2vmin);
   color: #e5e9ec;
   width: 75%;
+  text-align: center;
+  margin: 20vh 0;
 }
 
 .Landing-content {
@@ -121,4 +123,8 @@ img {
   .Landing-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+@media screen and (max-width: 600px) {
+  max-width: 580px;
 }
