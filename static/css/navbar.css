@@ -42,7 +42,7 @@
     display: none;
     width: 100px;
     position: absolute;
-    margin: 0 0 0 -50px;
+    margin: 0 0 0 -70px;
   }
 
   .NavBar-nav:hover .NavBar-content {
