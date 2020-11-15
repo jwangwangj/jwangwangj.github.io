@@ -124,7 +124,3 @@ img {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-@media screen and (max-width: 600px) {
-  max-width: 580px;
-}

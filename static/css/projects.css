@@ -68,3 +68,10 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 600px) {
+
+  .grid-container {
+    display: block;
+  }
+}
