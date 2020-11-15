@@ -68,6 +68,8 @@ img {
 .content {
   text-align: initial;
   min-height: calc(100vh - 150px);
+  width: inherit;
+  padding: 30px;
 }
 
 .block {

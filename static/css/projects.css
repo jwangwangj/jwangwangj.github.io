@@ -1,3 +1,9 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  column-gap: 10px;
+}
+
 .project-preview-container {
   width: 350px;
   height: 350px;
@@ -5,6 +11,10 @@
   position: relative;
   background-color: #4e3d44;
   margin: 20px 0;
+}
+
+.project-block{
+  width: 350px;
 }
 
 .project-preview-container:hover .project-preview-img {
