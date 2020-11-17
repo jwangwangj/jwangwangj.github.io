@@ -30,7 +30,7 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .NavBar {
     padding: 10px 0;
   }

@@ -9,7 +9,7 @@ body {
   max-width: 1200px;
   min-height: 100vh;
   line-height: 1.8em;
-  padding: 30px
+  padding: 0 40px;
 }
 
 a {
@@ -126,7 +126,7 @@ img {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   body {
     margin: 20px auto;
   }
