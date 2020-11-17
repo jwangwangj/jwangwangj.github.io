@@ -5,9 +5,10 @@
 }
 
 .project-preview-container {
+  max-width: 80vw;
+  max-height: 80vw;
   width: 350px;
   height: 350px;
-  max-width: 100%;
   overflow: hidden;
   position: relative;
   background-color: #4e3d44;
@@ -53,6 +54,8 @@
 }
 
 .project-more {
+  max-width: 80vw;
+  max-height: 80vw;
   width: 350px;
   height: 350px;
   overflow: hidden;

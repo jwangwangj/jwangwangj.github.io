@@ -128,6 +128,6 @@ img {
 
 @media screen and (max-width: 800px) {
   body {
-    margin: 20px auto;
+    margin: 10vw auto;
   }
 }
