@@ -33,11 +33,16 @@ code {
 }
 
 h1 {
-  font-size: 1.6em;
+  font-size: 1.8em;
   font-weight: bold;
 }
 
 h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+h3 {
   font-size: 1.1em;
   font-weight: bold;
 }
@@ -74,6 +79,12 @@ img {
 .block {
   display: inline-block;
   padding: 0 20px 0 0;
+}
+
+.main-title {
+  width: 85%;
+  border-bottom: 1px solid #e5e9ec;
+  padding-bottom: 10px
 }
 
 .Landing-header {
